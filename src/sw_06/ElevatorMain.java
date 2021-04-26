@@ -1,10 +1,10 @@
 package sw_06;
 
 public class ElevatorMain {
-	private static int k21_inVal;
-	public static void up() {
-		k21_inVal++;
-		System.out.printf("그냥 매서드[%d]\n", k21_inVal);
+	private static int k21_inVal;		// 카운터 변수 선언
+	public static void up() {			// 메인 클래스 내 up 함수
+		k21_inVal++;					// 카운터 변수 +1
+		System.out.printf("그냥 매서드[%d]\n", k21_inVal); //그냥 매서드[카운터]
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
